@@ -1,6 +1,9 @@
-silent! call pathogen#helptags()
-silent! call pathogen#runtime_append_all_bundles()
+filetype off
 
+call pathogen#helptags()
+call pathogen#runtime_append_all_bundles()
+
+set t_Co=256
 colorscheme koehler
 set nu
 set list
