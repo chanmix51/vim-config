@@ -1,7 +1,7 @@
 silent! call pathogen#helptags()
 silent! call pathogen#runtime_append_all_bundles()
 
-colorscheme kalt
+colorscheme koehler
 set nu
 set list
 set listchars=eol:ø,tab:T¬,trail:-,precedes:→
@@ -24,6 +24,7 @@ set smartindent
 
 set tabstop=4
 set shiftwidth=4
+set expandtab
 
 set cursorline
 
@@ -33,4 +34,6 @@ filetype plugin on
 filetype indent on
 
 set encoding=utf-8
+
+let g:proj_flags="gcimst"
 
