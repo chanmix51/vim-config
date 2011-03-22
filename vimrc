@@ -32,10 +32,14 @@ set expandtab
 
 " Highlite cursor line
 set cursorline
+autocmd insertEnter *.yml set cursorcolumn
+autocmd insertLeave *.yml set nocursorcolumn
+highlight cursorcolumn term=underline cterm=underline ctermbg=0 guibg=#000000
+highlight cursorline term=underline cterm=underline ctermbg=0 guibg=#000000
 
 " context around cursor
-set scrolloff=7
-set sidescrolloff=7
+set scrolloff=3
+set sidescrolloff=3
 
 " GUI options
 set guioptions-=r "remove scrollbar
@@ -54,3 +58,6 @@ let g:proj_flags="gcimst"
 
 " dont display splash screen
 set shortmess+=I
+
+" set syntax color for TWIG templates
+au BufRead,BufNewFile *.twig setfiletype htmljinja
