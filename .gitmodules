@@ -4,3 +4,9 @@
 [submodule "plugins/pathogen"]
 	path = plugins/pathogen
 	url = https://github.com/tpope/vim-pathogen.git
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
+[submodule "bundle/taghighlight"]
+	path = bundle/taghighlight
+	url = https://github.com/abudden/TagHighlight.git

@@ -1,8 +1,7 @@
 set nocompatible
 filetype off
 
-call pathogen#helptags()
-call pathogen#runtime_append_all_bundles()
+call pathogen#infect()
 
 set t_Co=256
 colorscheme symfony
@@ -10,6 +9,7 @@ set nu
 set list
 set listchars=eol:♢,tab:‖,trail:
 
+set laststatus=2 " Always show the statusline
 " set showcmd
 " set showmode
 
