@@ -10,3 +10,6 @@
 [submodule "bundle/taghighlight"]
 	path = bundle/taghighlight
 	url = https://github.com/abudden/TagHighlight.git
+[submodule "bundle/project"]
+	path = bundle/project
+	url = https://github.com/shemerey/vim-project.git
