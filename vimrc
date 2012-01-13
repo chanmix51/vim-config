@@ -10,8 +10,8 @@ set nu
 set list
 set listchars=eol:♢,tab:‖,trail:
 
-set showcmd
-set showmode
+" set showcmd
+" set showmode
 
 set wildmenu
 set wildmode=list:longest
@@ -19,7 +19,7 @@ set wildmode=list:longest
 set ignorecase
 set smartcase
 
-set ruler
+" set ruler
 set number
 
 " Indentation management
@@ -31,7 +31,8 @@ set shiftwidth=4
 set expandtab
 
 " Highlite cursor line
-set cursorline
+autocmd insertEnter * set cursorline
+autocmd insertLeave * set nocursorline
 autocmd insertEnter *.yml set cursorcolumn
 autocmd insertLeave *.yml set nocursorcolumn
 highlight cursorcolumn term=underline cterm=underline ctermbg=0 guibg=#000000
