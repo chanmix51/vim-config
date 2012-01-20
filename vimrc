@@ -10,7 +10,7 @@ set list
 set listchars=eol:♢,tab:‖,trail:
 
 set laststatus=2 " Always show the statusline
-" set showcmd
+set showcmd
 " set showmode
 
 set wildmenu
@@ -29,6 +29,8 @@ set smartindent
 set tabstop=4
 set shiftwidth=4
 set expandtab
+
+set noswapfile                    " Use an SCM instead of swap files
 
 " Highlite cursor line
 autocmd insertEnter * set cursorline
