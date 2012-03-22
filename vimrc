@@ -5,22 +5,20 @@ call pathogen#infect()
 
 set t_Co=256
 colorscheme symfony
-set nu
-set list
+set number       " set ruler
+set tildeop      " Use tilde as an operator
+set list         " display editing chars
 set listchars=eol:♢,tab:‖,trail:
 
 set laststatus=2 " Always show the statusline
-set showcmd
-" set showmode
+set showcmd      " set current command if any
 
 set wildmenu
 set wildmode=list:longest
 
-set ignorecase
-set smartcase
+set ignorecase   " ignore case when searching
+set smartcase    " unless you search with case
 
-" set ruler
-set number
 
 " Indentation management
 set autoindent
@@ -30,7 +28,7 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 
-set noswapfile                    " Use an SCM instead of swap files
+set noswapfile   " Use an SCM instead of swap files
 
 " Highlite cursor line
 autocmd insertEnter * set cursorline
