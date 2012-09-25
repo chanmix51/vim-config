@@ -66,7 +66,9 @@ set shortmess+=I
 " set syntax color for TWIG templates
 au BufRead,BufNewFile *.twig setfiletype htmljinja
 au BufRead,BufNewFile *.edit.* setfiletype sqlpostgres
-au BufRead,BufNewFile *.edit.* colorscheme pablo
 
 " Use postgresql SQL file when .sql
 let g:sql_type_default="sqlpostgres"
+
+" Use wordreference API as keywordprg to translate words in French using K
+set keywordprg=translate.sh
