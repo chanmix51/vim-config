@@ -72,3 +72,5 @@ let g:sql_type_default="sqlpostgres"
 
 " Use wordreference API as keywordprg to translate words in French using K
 set keywordprg=translate.sh
+
+source ~/.vimrc.local
