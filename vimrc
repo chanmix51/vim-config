@@ -3,6 +3,7 @@ filetype off
 
 call pathogen#infect()
 
+set ttyfast
 set t_Co=256
 colorscheme symfony
 set number       " set ruler
