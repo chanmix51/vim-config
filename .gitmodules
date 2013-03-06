@@ -10,6 +10,6 @@
 [submodule "bundle/project"]
 	path = bundle/project
 	url = https://github.com/shemerey/vim-project.git
-[submodule "bundle/fugitive"]
-	path = bundle/fugitive
-	url = git://github.com/tpope/vim-fugitive.git
+[submodule "bundle/vim-gitgutter"]
+	path = bundle/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter.git
